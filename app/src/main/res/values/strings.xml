@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Kulture</string>
+    <string name="NorthAmerica">North America</string>
+    <string name="SouthAmerica">South America</string>
+    <string name="Europe">Europe</string>
+    <string name="Asia">Asia</string>
+    <string name="Africa">Africa</string>
+    <string name="Australia">Australia</string>
+    <string name="Antarctica">Antarctica</string>
+    <string name="go_back">Go Back</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Kulture Kids</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="button">Toast</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="China">China</string>
+    <string name="Japan">Japan</string>
+    <string name="India">India</string>
+    <string name="Egypt">Egypt</string>
+    <string name="Nigeria">Nigeria</string>
+    <string name="SouthAfrica">SouthAfrica</string>
+    <string name="Peru">Peru</string>
+    <string name="Argentina">Argentina</string>
+    <string name="Brazil">Brazil</string>
+    <string name="NewZealand">NewZealand</string>
+    <string name="southafrica">South Africa</string>
+</resources>

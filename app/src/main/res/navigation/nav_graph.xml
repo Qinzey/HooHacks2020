@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.myapplication1.WorldFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_FirstFragment_to_ThirdFragment"
+            app:destination="@id/ThirdFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_FirstFragment_to_europeFragment"
+            app:destination="@id/europeFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_FirstFragment_to_africaFragment"
+            app:destination="@id/africaFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_FirstFragment_to_asiaFragment"
+            app:destination="@id/asiaFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_FirstFragment_to_australiaFragment"
+            app:destination="@id/australiaFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_FirstFragment_to_antarcticaFragment"
+            app:destination="@id/antarcticaFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.myapplication1.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_SecondFragment_to_mexicoFragment"
+            app:destination="@id/mexicoFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_SecondFragment_to_canadaFragment"
+            app:destination="@id/canadaFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_SecondFragment_to_usaFragment"
+            app:destination="@id/usaFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/ThirdFragment"
+        android:name="com.example.myapplication1.ThirdFragment"
+        android:label="fragment_third"
+        tools:layout="@layout/fragment_third" >
+        <action
+            android:id="@+id/action_ThirdFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_ThirdFragment_to_brazilFragment"
+            app:destination="@id/brazilFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_ThirdFragment_to_argentinaFragment"
+            app:destination="@id/argentinaFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_ThirdFragment_to_peruFragment"
+            app:destination="@id/peruFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/europeFragment"
+        android:name="com.example.myapplication1.EuropeFragment"
+        android:label="fragment_fourth"
+        tools:layout="@layout/fragment_fourth" >
+        <action
+            android:id="@+id/action_europeFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_europeFragment_to_greeceFragment"
+            app:destination="@id/greeceFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_europeFragment_to_englandFragment"
+            app:destination="@id/englandFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_europeFragment_to_franceFragment"
+            app:destination="@id/franceFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/africaFragment"
+        android:name="com.example.myapplication1.AfricaFragment"
+        android:label="fragment_fifth"
+        tools:layout="@layout/fragment_fifth" >
+        <action
+            android:id="@+id/action_africaFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_africaFragment_to_nigeriaFragment"
+            app:destination="@id/nigeriaFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_africaFragment_to_egyptFragment"
+            app:destination="@id/egyptFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_africaFragment_to_southafricaFragment"
+            app:destination="@id/southafricaFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/asiaFragment"
+        android:name="com.example.myapplication1.AsiaFragment"
+        android:label="fragment_sixth"
+        tools:layout="@layout/fragment_sixth" >
+        <action
+            android:id="@+id/action_asiaFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_asiaFragment_to_chinaFragment"
+            app:destination="@id/chinaFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_asiaFragment_to_japanFragment"
+            app:destination="@id/japanFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_asiaFragment_to_indiaFragment"
+            app:destination="@id/indiaFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/australiaFragment"
+        android:name="com.example.myapplication1.AustraliaFragment"
+        android:label="fragment_seventh"
+        tools:layout="@layout/fragment_seventh" >
+        <action
+            android:id="@+id/action_australiaFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_australiaFragment_to_newzealandFragment"
+            app:destination="@id/newzealandFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+        android:id="@+id/action_australiaFragment_to_australiacountryFragment"
+        app:destination="@id/australiacountryFragment"
+        app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/antarcticaFragment"
+        android:name="com.example.myapplication1.AntarcticaFragment"
+        android:label="fragment_eighth"
+        tools:layout="@layout/fragment_eighth" >
+        <action
+            android:id="@+id/action_antarcticaFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/chinaFragment"
+        android:name="com.example.myapplication1.ChinaFragment"
+        android:label="fragment_china"
+        tools:layout="@layout/fragment_china" >
+        <action
+            android:id="@+id/action_chinaFragment_to_asiaFragment"
+            app:destination="@id/asiaFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/japanFragment"
+        android:name="com.example.myapplication1.JapanFragment"
+        android:label="fragment_japan"
+        tools:layout="@layout/fragment_japan" >
+        <action
+            android:id="@+id/action_japanFragment_to_asiaFragment"
+            app:destination="@id/asiaFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/indiaFragment"
+        android:name="com.example.myapplication1.IndiaFragment"
+        android:label="fragment_india"
+        tools:layout="@layout/fragment_india" >
+        <action
+            android:id="@+id/action_indiaFragment_to_asiaFragment"
+            app:destination="@id/asiaFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/canadaFragment"
+        android:name="com.example.myapplication1.CanadaFragment"
+        android:label="fragment_canada"
+        tools:layout="@layout/fragment_canada" >
+        <action
+            android:id="@+id/action_canadaFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/usaFragment"
+        android:name="com.example.myapplication1.USAFragment"
+        android:label="fragment_usa"
+        tools:layout="@layout/fragment_usa" >
+        <action
+            android:id="@+id/action_usaFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/mexicoFragment"
+        android:name="com.example.myapplication1.MexicoFragment"
+        android:label="fragment_mexico"
+        tools:layout="@layout/fragment_mexico" >
+        <action
+            android:id="@+id/action_mexicoFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/southafricaFragment"
+        android:name="com.example.myapplication1.SouthAfricaFragment"
+        android:label="fragment_southafrica"
+        tools:layout="@layout/fragment_southafrica" >
+        <action
+            android:id="@+id/action_southafricaFragment_to_africaFragment"
+            app:destination="@id/africaFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/nigeriaFragment"
+        android:name="com.example.myapplication1.NigeriaFragment"
+        android:label="fragment_nigeria"
+        tools:layout="@layout/fragment_nigeria" >
+        <action
+            android:id="@+id/action_nigeriaFragment_to_africaFragment"
+            app:destination="@id/africaFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/egyptFragment"
+        android:name="com.example.myapplication1.EgyptFragment"
+        android:label="fragment_egypt"
+        tools:layout="@layout/fragment_egypt" >
+        <action
+            android:id="@+id/action_egyptFragment_to_africaFragment"
+            app:destination="@id/africaFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/argentinaFragment"
+        android:name="com.example.myapplication1.ArgentinaFragment"
+        android:label="fragment_argentina"
+        tools:layout="@layout/fragment_argentina" >
+        <action
+            android:id="@+id/action_argentinaFragment_to_ThirdFragment"
+            app:destination="@id/ThirdFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/brazilFragment"
+        android:name="com.example.myapplication1.BrazilFragment"
+        android:label="fragment_brazil"
+        tools:layout="@layout/fragment_brazil" >
+        <action
+            android:id="@+id/action_brazilFragment_to_ThirdFragment"
+            app:destination="@id/ThirdFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/peruFragment"
+        android:name="com.example.myapplication1.PeruFragment"
+        android:label="fragment_peru"
+        tools:layout="@layout/fragment_peru" >
+        <action
+            android:id="@+id/action_peruFragment_to_ThirdFragment"
+            app:destination="@id/ThirdFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/greeceFragment"
+        android:name="com.example.myapplication1.GreeceFragment"
+        android:label="fragment_greece"
+        tools:layout="@layout/fragment_greece" >
+        <action
+            android:id="@+id/action_greeceFragment_to_europeFragment"
+            app:destination="@id/europeFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/englandFragment"
+        android:name="com.example.myapplication1.EnglandFragment"
+        android:label="fragment_england"
+        tools:layout="@layout/fragment_england" >
+        <action
+            android:id="@+id/action_englandFragment_to_europeFragment"
+            app:destination="@id/europeFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/franceFragment"
+        android:name="com.example.myapplication1.FranceFragment"
+        android:label="fragment_france"
+        tools:layout="@layout/fragment_france" >
+        <action
+            android:id="@+id/action_franceFragment_to_europeFragment"
+            app:destination="@id/europeFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/newzealandFragment"
+        android:name="com.example.myapplication1.NewZealandFragment"
+        android:label="fragment_newzealand"
+        tools:layout="@layout/fragment_new_zealand" >
+        <action
+            android:id="@+id/action_newzealandFragment_to_australiaFragment"
+            app:destination="@id/australiaFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/australiacountryFragment"
+        android:name="com.example.myapplication1.AustraliaCountryFragment"
+        android:label="fragment_australiacountry"
+        tools:layout="@layout/fragment_australia_country" >
+        <action
+            android:id="@+id/action_australiacountryFragment_to_australiaFragment"
+            app:destination="@id/australiaFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+
+</navigation>
